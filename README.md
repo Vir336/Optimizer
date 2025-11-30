@@ -43,7 +43,7 @@ x_opt, num_iter, history = statsgd(
     grad_f=gradient_function, 
     x0=x_start, 
     lr=0.005, 
-    boost_factor=10, 
+    boost_factor=100, 
     max_iter=500,
     tol=1e-8
 )
